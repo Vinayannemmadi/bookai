@@ -24,7 +24,8 @@ const PricingSection=()=>{
             </div>
             
             <div className='flex flex-col md:flex-row md:flex-wrap justify-center sm:space-x-6 sm:space-y-7  md:space-y-0 md:space-10 
-                sticky top-0 z-1000   font-sans text-[#E2E8F0] text-[14px] mb-10 text-center md:space-7 py-[27px]  bg-[#1e293b] '>
+                sticky top-0 z-1000   font-sans text-[#E2E8F0] text-[14px] mb-10 text-center md:space-7 py-[27px]  bg-[#1e293b] 
+                shadow-2xl '>
                 <a href="/#overview" className="font-bold hover:text-[#22d3ee]">OVERVIEW</a>
                 <a href="/#authentication" className="font-bold hover:text-[#22d3ee]">AUTHENTICATION</a>
                 <a href="/#endpoints" className="font-bold hover:text-[#22d3ee]">ENDPOINTS</a>
