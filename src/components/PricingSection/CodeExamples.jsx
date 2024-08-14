@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const CodeExamples = ({ theme }) => {
   return (
     <div
-      id="api-pricing"
+      id="code-examples"
       className={`${
         theme === 'light' ? 'text-black bg-white' : 'text-white bg-[#1e293b]'
       } p-[32px] m-[32px] rounded-md font-sans 
