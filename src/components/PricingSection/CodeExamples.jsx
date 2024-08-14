@@ -6,9 +6,9 @@ const CodeExamples = ({ theme }) => {
       id="code-examples"
       className={`${
         theme === 'light' ? 'text-black bg-white' : 'text-white bg-[#1e293b]'
-      } p-5 m-8 rounded-md font-sans 
-      sm:w-full sm:m-0 sm:p-4 
-      md:w-[90%] md:m-4 md:p-64
+      } p-1 m-2 rounded-md font-sans 
+      sm:w-full sm:m-1 sm:p-1 
+      md:w-[90%] md:m-4 md:p-6
       lg :w-[85%] lg:m-6 lg:p-8
       xl:w-[85%] xl:m-12 xl:p-10`}
     >
