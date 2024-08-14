@@ -23,8 +23,8 @@ const Endpoints = ({ theme }) => {
             </h3>
             <div className="flex justify-start space-x-5 mt-4 mb-14 sm:space-x-3 md:space-x-4 lg:space-x-5 xl:space-x-6">
                 <p> 
-                    <span className='bg-[#22d3ee] text-[#0f1728] pt-[0.25rem] pr-[0.5rem] pb-[0.25rem] pl-[0.5rem] mx-2 rounded-md sm:px-1 sm:py-1 md:px-2 md:py-2 lg:px-3 lg:py-3 xl:px-4 xl:py-4' > POST </span>
-                    <span className="bg-[#6366f1] mx-4 text-white px-6 py-3  rounded-md font-bold sm:px-1 sm:py-1 md:px-2 md:py-2 lg:px-3lg:py-3 xl:px-4 xl:py-4">/api/generate-book </span>
+                    <span className='bg-[#22d3ee] text-[#0e1117] pt-[0.25rem] pr-[0.5rem] pb-[0.25rem] pl-[0.5rem] mx-2 rounded-md ' > POST </span>
+                    <span className="bg-[#6366f1] mx-4 text-white px-6 py-3  rounded-md font-bold ">/api/generate-book </span>
                 </p>
             </div>
             <div>
