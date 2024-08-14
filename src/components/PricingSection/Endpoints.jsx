@@ -21,13 +21,9 @@ const Endpoints = ({ theme }) => {
             <h3 className="text-[20px] font-bold mt-[32px] text-[#a5b4fc] sm:mt-4 sm:text-[18px] md:mt-6 md:text-[20px] lg:mt-8 lg:text-[22px] xl:mt-10 xl:text-[24px]">
                 Generate Book
             </h3>
-            <div className="flex justify-start space-x-5 mt-3 mb-5 sm:space-x-3 md:space-x-4 lg:space-x-5 xl:space-x-6">
-                <div className="bg-[#22eed3] text-black px-2 py-2 rounded-md sm:px-1 sm:py-1 md:px-2 md:py-2 lg:px-3 lg:py-3 xl:px-4 xl:py-4">
-                    POST
-                </div>
-                <div className="bg-[#6366f1] text-white px-2 py-2 rounded-md font-bold sm:px-1 sm:py-1 md:px-2 md:py-2 lg:px-3 lg:py-3 xl:px-4 xl:py-4">
-                    /api/generate-book
-                </div>
+            <div className="flex justify-start space-x-5 mt-4 mb-14 sm:space-x-3 md:space-x-4 lg:space-x-5 xl:space-x-6">
+                <p> <span className='bg-[#22d3ee] text-[#080c16] px-2 py-1 mx-2 rounded-md sm:px-1 sm:py-1 md:px-2 md:py-2 lg:px-3 lg:py-3 xl:px-4 xl:py-4' > POST </span> 
+                <span className="bg-[#6366f1] mx-4 text-white px-6 py-3  rounded-md font-bold sm:px-1 sm:py-1 md:px-2 md:py-2 lg:px-3 lg:py-3 xl:px-4 xl:py-4">/api/generate-book </span></p>
             </div>
             <div>
                 <h4 className="text-[#a5b4fc] text-[16px] mb-4 sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">

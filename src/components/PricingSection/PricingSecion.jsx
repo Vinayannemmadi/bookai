@@ -7,14 +7,7 @@ import Tutorial from './Tutorial';
 import themeContext from '../store/theme-context';
 import { useContext } from 'react';
 const PricingSection=()=>{
-    const navItems = [
-        { path: 'overview', title: 'OVERVIEW' },
-        { path: 'authentication', title: 'AUTHENTICATION' },
-        { path: 'endpoints', title: 'ENDPOINTS' },
-        { path: 'tutorials', title: 'TUTORIALS' },
-        { path: 'code-examples', title: 'CODE EXAMPLES' },
-        { path: 'api-pricing', title: 'PRICING' },
-      ];
+
     const {theme} = useContext(themeContext);
 
     return (
