@@ -20,7 +20,7 @@ const PricingSection=()=>{
     return (
         <div className={`${theme=='light'?"text-black bg-white":"text-white bg-[#111827] "} `}>
             <div className="flex bg-[#6366f1] font-bold justify-center  text-center  w-full sm:h-[150px]  md:h-[200px]" >
-            <h1 className='text-[30px] sm:text-[24px] md:text-[32px] lg:text-[32px] xl:text-[36px]  my-auto'>
+            <h1 className='text-[30px] sm:text-[28px] md:text-[36px] lg:text-[42px] xl:text-[48px]  my-auto'>
                 Book Generator API
             </h1>
 
