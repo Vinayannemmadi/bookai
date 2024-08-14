@@ -6,7 +6,7 @@ const Endpoints = ({ theme }) => {
             id="endpoints"
             className={`${
                 theme === 'light' ? 'text-black bg-white' : 'text-white bg-[#1e293b]'
-            } p-[32px] m-[32px] rounded-md font-sans 
+            } p-5 m-6 rounded-md font-sans 
             sm:w-full sm:m-0 sm:p-4 
             md:w-[90%] md:m-4 md:p-6
             lg:w-[85%] lg:m-6 lg:p-8
@@ -91,7 +91,7 @@ const Endpoints = ({ theme }) => {
                     Response
                 </h4>
                 <div className="p-4 rounded-md border border-[#334155] mt-4">
-                    <pre className={`whitespace-pre-wrap text-sm ${theme==='light'?"text-black":"text-white"}  font-mono p-2 rounded-md sm:text-xs md:text-sm lg:text-base xl:text-lg`}>
+                    <pre className={`whitespace-pre-wrap text-sm ${theme==='light'?"text-black":"text-white"} font-mono p-2 rounded-md sm:text-xs md:text-sm lg:text-base xl:text-lg`}>
                         {JSON.stringify(responce, null, 2)}
                     </pre>
                 </div>
