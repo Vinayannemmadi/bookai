@@ -1,9 +1,9 @@
+/* styles.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* styles.css */
-
+   
 .custom-container {
     @apply rounded-md font-sans;
   }

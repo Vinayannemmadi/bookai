@@ -40,3 +40,46 @@
 .read-the-docs {
   color: #888;
 } */
+
+/* styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-container {
+  @apply rounded-md font-sans;
+}
+
+.custom-container.light {
+  @apply text-black bg-white;
+}
+
+.custom-container.dark {
+  @apply text-white bg-[#1e293b];
+}
+
+@media (min-width: 640px) {
+  .custom-container {
+    @apply w-full m-2 p-4;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    @apply w-[90%] m-4 p-6;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-container {
+    @apply w-[85%] m-6 p-8;
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-container {
+    @apply w-[85%] m-12 p-10;
+  }
+}
