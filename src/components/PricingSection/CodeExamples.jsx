@@ -6,8 +6,8 @@ const CodeExamples = ({ theme }) => {
       id="code-examples"
       className={`${
         theme === 'light' ? 'text-black bg-white' : 'text-white bg-[#1e293b]'
-      } p-1 m-2 rounded-md font-sans 
-      sm:w-full sm:m-1 sm:p-1 
+      } p-[24px] m-[28px] rounded-md font-sans 
+      sm:w-full sm:m-2 sm:p-4
       md:w-[90%] md:m-4 md:p-6
       lg :w-[85%] lg:m-6 lg:p-8
       xl:w-[85%] xl:m-12 xl:p-10`}

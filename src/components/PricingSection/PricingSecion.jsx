@@ -16,7 +16,7 @@ const PricingSection=()=>{
                <h1 className='text-[40px] font-sans'> Book Generator API </h1>
             </div>
             
-            <div className='flex justify-center font-sans text-[#E2E8F0] font-sans text-[14px] flex-wrap space-x-9 py-[27px] px-7 bg-[#1e293b]'>
+            <div className='flex justify-center font-sans text-[#E2E8F0] font-sans text-[14px] mb-10 flex-wrap space-x-9 py-[27px] px-7 bg-[#1e293b]'>
                 <a href="/#overview" className="anchor font-bold hover:text-[#22d3ee] ">OVERVIEW</a>
                 <a href="/#authentication" className="anchor font-bold hover:text-[#22d3ee] ">AUTHENTICATION</a>
                 <a href="/#endpoints" className="anchor font-bold hover:text-[#22d3ee] ">ENDPOINTS</a>

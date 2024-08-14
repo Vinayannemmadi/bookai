@@ -6,8 +6,8 @@ const Overview = ({ theme }) => {
             id="overview"
             className={`${
                 theme === 'light' ? 'text-black bg-white' : 'text-white bg-[#1e293b]'
-            } p-[32px] m-[32px] rounded-md text-sans 
-            sm:w-full sm:m-0 sm:p-4 
+            } p-[32px]  m-[32px] rounded-md text-sans 
+            sm:w-full sm:m-2 sm:p-4 
             md:w-[90%] md:m-4 md:p-6
             lg:w-[85%] lg:m-6 lg:p-8
             xl:w-[85%] xl:m-12 xl:p-10`}
